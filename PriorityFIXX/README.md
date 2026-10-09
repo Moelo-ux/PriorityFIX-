@@ -1,4 +1,4 @@
-# PriorityFIX (Phase 2, clean version)
+# PriorityFIX Phase 2
 
 | File | Holds |
 |------|-------|
@@ -10,9 +10,3 @@
 | TicketingSystem.h | TicketingSystem |
 | main.cpp | the menu |
 
-Build and run (terminal, inside this folder):
-
-    g++ main.cpp -o priorityfix
-    ./priorityfix          (Windows PowerShell: .\priorityfix)
-
-Or press Ctrl+Shift+B. Only main.cpp is compiled; it pulls in the headers with #include.
