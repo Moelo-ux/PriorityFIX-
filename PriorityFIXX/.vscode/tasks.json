@@ -1,0 +1,13 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build PriorityFIX",
+            "type": "shell",
+            "command": "g++",
+            "args": ["-g", "-Wall", "${workspaceFolder}/main.cpp", "-o", "${workspaceFolder}/priorityfix"],
+            "group": { "kind": "build", "isDefault": true },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
